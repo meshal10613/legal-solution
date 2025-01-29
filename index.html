@@ -68,7 +68,7 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
+                    <li><a id="home">Home</a></li>
                     <li><a>Services</a></li>
                     <li><a>Cases</a></li>
                     <li><a>Blog</a></li>
@@ -335,9 +335,43 @@
             </div>
           </div>
         </section>
-
-        <!-- Footer -->
-        <footer></footer>
     </main>
+        <!-- Footer -->
+        <footer class="footer bg-black text-[#CFCFCF] p-10 md:px-[100px] lg:px-[200px] grid grid-cols-1 md:grid-cols-4">
+              <nav>
+                <img src="./images/logo.png" alt="" class="mb-4 md:mb-8">
+                <p class="">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              </nav>
+              <nav>
+                <h6 class="font-garamond text-2xl font-extrabold text-white">Usefull Link</h6>
+                <a class="link link-hover" href="#home">Home</a>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Cases</a>
+                <a class="link link-hover">Blog</a>
+                <a class="link link-hover">Contact us</a>
+              </nav>
+              <nav>
+                <h6 class="font-garamond text-2xl font-extrabold text-white">Contact Now</h6>
+                <a class="link link-hover">555 4th 5t NW, Washington <br> DC 20530, United States</a>
+                <a class="link link-hover">+88 01750 000 000 <br> +88 01750 000 000</a>
+                <a class="link link-hover">info@gmail.com <br> info@gmail.com</a>
+              </nav>
+              <form>
+                <h6 class="font-garamond text-2xl font-extrabold text-white">Subscribe</h6>
+                <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                <fieldset class="form-control w-80">
+                  <label class="label">
+                    <span class="label-text">Enter your email address</span>
+                  </label>
+                  <div class="join">
+                    <input
+                      type="text"
+                      placeholder="Email Address"
+                      class="input input-bordered join-item" />
+                    <button class="btn join-item bg-[#B68C5A] "><i class="fa-solid fa-paper-plane text-white hover:text-[#B68C5A]"></i></button>
+                  </div>
+                </fieldset>
+              </form>
+        </footer>
 </body>
 </html>
